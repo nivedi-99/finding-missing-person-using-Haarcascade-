@@ -3,12 +3,16 @@
 ```markdown
 # Finding Missing Person Using Haar Cascade
 
-A computer vision project designed to identify and recognize missing individuals using Haar Cascade classifiers for face detection and identification models.
+A computer vision project designed to identify and recognize missing individuals using
+Haar Cascade classifiers for face detection and identification models.
 
 ## 📌 Features
-* **Face Detection**: Utilizes OpenCV's pre-trained Haar Cascade classifier (`haarcascade_frontalface_default.xml`) to detect human faces in images/video streams.
-* **Model Training**: Pipeline script to process dataset images and train recognition models for registered individuals.
-* **Testing & Authentication**: Scripts to verify and match input images against the trained database for identification.
+* **Face Detection**: Utilizes OpenCV's pre-trained Haar Cascade classifier (`haarcascade_frontalface_default.xml`)
+to detect human faces in images/video streams.
+* **Model Training**: Pipeline script to process dataset images and
+train recognition models for registered individuals.
+* **Testing & Authentication**: Scripts to verify and match input images
+against the trained database for identification.
 
 ## 📁 Repository Structure
 
@@ -26,8 +30,6 @@ A computer vision project designed to identify and recognize missing individuals
 ## 🛠️ Prerequisites & Installation
 
 Ensure you have Python 3.x installed along with the required dependencies:
-
-
 pip install opencv-python numpy
 
 
@@ -48,8 +50,6 @@ unzip "train and test person identification-20230626T203613Z-001.zip"
 ### 2. Train the Model
 
 Run the training script to process the training dataset and build face representations:
-
-
 python TRAIN.PY
 
 
@@ -57,8 +57,6 @@ python TRAIN.PY
 ### 3. Run Identification / Testing
 
 To test face recognition on test samples:
-
-
 python TEST.py
 
 
@@ -66,9 +64,6 @@ Alternatively, open and step through `Authentication.ipynb` using Jupyter Notebo
 
 jupyter notebook Authentication.ipynb
 
-
-
 ## 📜 License
 
 This project is open-source and available under the standard repository terms.
-
