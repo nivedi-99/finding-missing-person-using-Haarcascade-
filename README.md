@@ -18,12 +18,18 @@ against the trained database for identification.
 
 ```
 
-├── Authentication.ipynb                      # Notebook for user verification and testing pipeline
-├── TEST.py                                   # Python script for running inference/testing on input images
-├── TRAIN.PY                                  # Python script for training the face recognition model
-├── haarcascade_frontalface_default.xml       # Haar Cascade XML model for face detection
-├── train and test person identification.zip  # Sample dataset for training and testing
-└── README.md                                 # Project documentation
+Authentication.ipynb                     
+### Notebook for user verification and testing pipeline
+TEST.py                                   
+### Python script for running inference/testing on input images
+TRAIN.PY                                  
+### Python script for training the face recognition model
+haarcascade_frontalface_default.xml       
+### Haar Cascade XML model for face detection
+train and test person identification.zip  
+### Sample dataset for training and testing
+README.md                                
+### Project documentation
 
 ```
 
