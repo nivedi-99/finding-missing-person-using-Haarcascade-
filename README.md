@@ -27,17 +27,14 @@ A computer vision project designed to identify and recognize missing individuals
 
 Ensure you have Python 3.x installed along with the required dependencies:
 
-```bash
+
 pip install opencv-python numpy
 
-```
+
 
 *(Optional)* If using Jupyter Notebook for running `Authentication.ipynb`:
 
-```bash
 pip install notebook
-
-```
 
 ## 🚀 How to Run
 
@@ -45,40 +42,33 @@ pip install notebook
 
 Extract the dataset archive to populate training and testing directories:
 
-```bash
-unzip "train and test person identification-20230626T203613Z-001.zip"
 
-```
+unzip "train and test person identification-20230626T203613Z-001.zip"
 
 ### 2. Train the Model
 
 Run the training script to process the training dataset and build face representations:
 
-```bash
+
 python TRAIN.PY
 
-```
+
 
 ### 3. Run Identification / Testing
 
 To test face recognition on test samples:
 
-```bash
+
 python TEST.py
 
-```
 
 Alternatively, open and step through `Authentication.ipynb` using Jupyter Notebook for an interactive workflow:
 
-```bash
 jupyter notebook Authentication.ipynb
 
-```
+
 
 ## 📜 License
 
 This project is open-source and available under the standard repository terms.
 
-```
-
-```
